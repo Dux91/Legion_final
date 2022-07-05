@@ -5,7 +5,7 @@ module.exports = {
   ownerOnly: false,
   usage: 'dance',
   examples: ['dance' ],
-  description: 'Bonjour version Dux',
+  description: 'Monkey dance',
 
   async runInteraction(client, interaction) {
     const text = interaction.options.getString('text');
