@@ -7,7 +7,7 @@ module.exports = {
   ownerOnly: true,
   usage: 'cavaetretoutrouge',
   examples: ['cavaetretoutrouge' ],
-  description: 'Bonjour version Dux',
+  description: 'Lucky et ses vaisseaux!',
 
   async runInteraction(client, interaction) {
     const embed = new MessageEmbed()
