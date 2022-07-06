@@ -1,4 +1,4 @@
-const { MessageEmbed } = require('discord.js');
+const { MessageEmbed, ThreadChannel } = require('discord.js');
 
 module.exports = {
   name: 'guildMemberAdd',
@@ -12,7 +12,7 @@ module.exports = {
       memberSettings = await client.getMember(member);
     }
 
-    member.roles.add('848555681987428373', '830448046675591249');
+    member.roles.add('830448046675591249') && ('848555681987428373');
 
     const embed = new MessageEmbed()
       .setThumbnail('https://zupimages.net/up/22/18/k76p.png')          
