@@ -4,7 +4,7 @@ module.exports = {
   name: 'rewardCrystauxgelés-button',
   async runInteraction(client, interaction, memberSettings) {
     const memberXp = memberSettings.xp;
-    const newXp = (memberXp + 250);
+    const newXp = (memberXp + 100);
     const memberLvl = memberSettings.level;
     const newLvl = (memberLvl + 1);
     const memberUpLvl = memberSettings.xpToLvlUp;
@@ -28,7 +28,7 @@ module.exports = {
         .addFields(
         { name: 'Ressources', value: `50 Crystaux gelés.`},
         { name: 'Etat', value: `Mission Terminée`},
-        { name: 'Récompense', value: `250 <:XP:854326960586883072>*--crédités--*.\n1000 <:MC:935563515945705553>*--distribués--*`}
+        { name: 'Récompense', value: `100 <:XP:854326960586883072>*--crédités--*.\n400 <:MC:935563515945705553>*--distribués--*`}
         )
         .setTimestamp()
         .setFooter({ 
