@@ -31,7 +31,7 @@ module.exports = {
         .addFields(
         { name: 'Ressources', value: `50 Crystaux gelés.`},
         { name: 'Etat', value: `Livraison effectuée, <:XP:854326960586883072> En attente de validation `},
-        { name: 'Récompense', value: `250 <:XP:854326960586883072>*---En attente de validation---*\n1000 <:MC:935563515945705553>*---Distribués---*`}
+        { name: 'Récompense', value: `50 <:XP:854326960586883072>*---En attente de validation---*\n200 <:MC:935563515945705553>*---Distribués---*`}
         )
         .setTimestamp()
         .setFooter({ 
